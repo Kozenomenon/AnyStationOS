@@ -1,6 +1,8 @@
 ![AnyStationOS](https://github.com/Kozenomenon/AnyStationOS/blob/main/Images/ASOS_Repo_Icon.png?raw=true)
 # AnyStationOS
  Ark Mod that demonstrates how to add your engrams to any craft stations by editing the PGD Additional Structure Engrams array at runtime.
+  
+ ![Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2488740071)
  
 ## Setup
 Copy the *AnyStationOS* folder to your kit's \Mods directory.
