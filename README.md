@@ -25,10 +25,10 @@ DoExistingStructuresCheck=False
 DoClientPGDEdits=False
 ```
 **DebugMode** <br>
-Enables logging via PrintServerGameLog.
+Enables logging via PrintServerGameLog.<br>
 **MiniOilPumpMatches** <br>
-Comma-delimited list of match strings for which structures to add the Mini Oil Pump engram to.
+Comma-delimited list of match strings for which structures to add the Mini Oil Pump engram to.<br>
 **DoExistingStructuresCheck** <br>
-If True will perform check on server for existing structures missing any of the added engrams. If missing, the engram will be added to the structure. I left this in here in case anyone finds that they need it. Once I made the singleton a SaveGameActor I found that after the first game/server start the logic ran early enough and this was not needed. So I made this disabled by default.
+If True will perform check on server for existing structures missing any of the added engrams. If missing, the engram will be added to the structure. I left this in here in case anyone finds that they need it. Once I made the singleton a SaveGameActor I found that after the first game/server start the logic ran early enough and this was not needed. So I made this disabled by default.<br>
 **DoClientPGDEdits** <br>
 If True the singleton will set itself to be replicated and it will run the PGD array merge on clients as well. I found that this was not needed, but left it in here disabled by default just in case.
