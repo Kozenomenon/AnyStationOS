@@ -2,20 +2,20 @@
 # AnyStationOS
  Ark Mod that demonstrates how to add your engrams to any craft stations by editing the PGD Additional Structure Engrams array at runtime.
   
- ![Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2488740071)
+ [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2488740071)
  
 ## Setup
-Copy the *AnyStationOS* folder to your kit's \Mods directory.
+Copy the `AnyStationOS` folder to your kit's `\Mods` directory.
 Start the Ark Dev Kit. That's it. 
 
-The *AnyStationOS_CCA* asset is the singleton that does all of the work. This is what you will want to be looking at.
+The `AnyStationOS_CCA` asset is the singleton that does all of the work. This is what you will want to be looking at.
 
-The \Examples folder has the Mini Oil Pump I put in just to show how the engrams can be added to existing structures.
+The `\Examples` folder has the Mini Oil Pump I put in just to show how the engrams can be added to existing structures.
 
 I have put a lot of comments in the graphing of the singleton so I hope it for the most part does need much further explaining here.
 
 ## Notes
-* The singleton is a child of *SaveGameActor* only so that it will load earlier on restarts. I found that by doing this the mod did not need to perform checks on existing structures anymore.
+* The singleton is a child of `SaveGameActor` only so that it will load earlier on restarts. I found that by doing this the mod did not need to perform checks on existing structures anymore.
 * There is logic included for checking existing structures, but it will be disabled by default. It can be enabled via INI (below).
 
 ## INI Settings
